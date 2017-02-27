@@ -36,13 +36,14 @@
     imageView.image = [UIImageView imageWithTintColor: color];
     [self.view addSubview:imageView];
     
+    // 路线
     CAKeyframeAnimation *animation = [CAKeyframeAnimation animationWithKeyPath:@"position"];
     UIBezierPath *path = [UIBezierPath bezierPath];
     [path moveToPoint:CGPointMake(165 + arc4random() % 10, 500)];
     [path addCurveToPoint:CGPointMake(180, 100) controlPoint1:CGPointMake(100 + arc4random() % 100, 400 + arc4random() % 50) controlPoint2:CGPointMake(250 + arc4random() % 100, 250 + arc4random() % 50)];
     animation.path = path.CGPath;
     
-    
+    // 变大
     CABasicAnimation *expandAnimation = [CABasicAnimation animationWithKeyPath:@"transform.scale"];
     expandAnimation.duration = 0.05f;
     expandAnimation.fromValue = [NSNumber numberWithFloat:1.0f];
@@ -57,6 +58,7 @@
     narrowAnimation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
     
     
+    // 透明度
     CABasicAnimation *rotationAnimation = [CABasicAnimation animationWithKeyPath:@"opacity"];
     rotationAnimation.fromValue = @(1);
     rotationAnimation.toValue = @(0);
