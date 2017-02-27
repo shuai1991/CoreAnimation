@@ -74,7 +74,7 @@
     
     [imageView.layer addAnimation:groups forKey:@"group"];
     
-    
+    // 移除
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(groups.duration * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         
         [imageView removeFromSuperview];
