@@ -15,6 +15,8 @@
 		27A0825D1E6413DA00F657AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27A0825B1E6413DA00F657AE /* LaunchScreen.storyboard */; };
 		27A082681E6413DA00F657AE /* CoreAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A082671E6413DA00F657AE /* CoreAnimationTests.m */; };
 		27A082731E6413DB00F657AE /* CoreAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A082721E6413DB00F657AE /* CoreAnimationUITests.m */; };
+		27A082821E6413F300F657AE /* UIImageView+Quart.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A082811E6413F300F657AE /* UIImageView+Quart.m */; };
+		27A082841E6413FA00F657AE /* 点赞.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A082831E6413FA00F657AE /* 点赞.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		27A0826E1E6413DB00F657AE /* CoreAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27A082721E6413DB00F657AE /* CoreAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreAnimationUITests.m; sourceTree = "<group>"; };
 		27A082741E6413DB00F657AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27A082801E6413F300F657AE /* UIImageView+Quart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Quart.h"; sourceTree = "<group>"; };
+		27A082811E6413F300F657AE /* UIImageView+Quart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Quart.m"; sourceTree = "<group>"; };
+		27A082831E6413FA00F657AE /* 点赞.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "点赞.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +106,13 @@
 		27A0824C1E6413DA00F657AE /* CoreAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				27A082831E6413FA00F657AE /* 点赞.png */,
 				27A082501E6413DA00F657AE /* AppDelegate.h */,
 				27A082511E6413DA00F657AE /* AppDelegate.m */,
 				27A082531E6413DA00F657AE /* ViewController.h */,
 				27A082541E6413DA00F657AE /* ViewController.m */,
+				27A082801E6413F300F657AE /* UIImageView+Quart.h */,
+				27A082811E6413F300F657AE /* UIImageView+Quart.m */,
 				27A082561E6413DA00F657AE /* Main.storyboard */,
 				27A082591E6413DA00F657AE /* Assets.xcassets */,
 				27A0825B1E6413DA00F657AE /* LaunchScreen.storyboard */,
@@ -246,6 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27A082841E6413FA00F657AE /* 点赞.png in Resources */,
 				27A0825D1E6413DA00F657AE /* LaunchScreen.storyboard in Resources */,
 				27A0825A1E6413DA00F657AE /* Assets.xcassets in Resources */,
 				27A082581E6413DA00F657AE /* Main.storyboard in Resources */,
@@ -275,6 +284,7 @@
 			files = (
 				27A082551E6413DA00F657AE /* ViewController.m in Sources */,
 				27A082521E6413DA00F657AE /* AppDelegate.m in Sources */,
+				27A082821E6413F300F657AE /* UIImageView+Quart.m in Sources */,
 				27A0824F1E6413DA00F657AE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
